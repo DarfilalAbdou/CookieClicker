@@ -1,0 +1,69 @@
+body {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+.app-shell {
+  width: 400px;
+  max-width: 100%;
+}
+
+.auth-box form {
+  display: grid;
+  gap: 5px;
+  width: 250px;
+}
+
+.auth-box input,
+.auth-box button,
+.auth-box + button {
+  padding: 6px;
+}
+
+.error {
+  color: #c00;
+}
+
+.cookie-count {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.cookie-button {
+  display: block;
+  width: 180px;
+  height: 60px;
+  margin-bottom: 20px;
+  color: #000;
+  background: #a66a32;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.cookie-button:active {
+  background: #865225;
+}
+
+.upgrade-list {
+  display: grid;
+  gap: 5px;
+}
+
+.upgrade-row {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  color: #000;
+  text-align: left;
+  background: #eee;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.upgrade-row:disabled {
+  color: #777;
+  background: #fff;
+  cursor: not-allowed;
+}
